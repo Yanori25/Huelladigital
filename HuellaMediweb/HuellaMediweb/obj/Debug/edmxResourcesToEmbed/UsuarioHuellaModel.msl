@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mediwebModelStoreContainer" CdmEntityContainer="mediwebEntities">
+    <EntitySetMapping Name="usuarioHuellas">
+      <EntityTypeMapping TypeName="mediwebModel.usuarioHuella">
+        <MappingFragment StoreEntitySet="usuarioHuella">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="usuarioid" ColumnName="usuarioid" />
+          <ScalarProperty Name="huella" ColumnName="huella" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
